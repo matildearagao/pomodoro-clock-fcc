@@ -1,32 +1,31 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Roboto';
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.settings{
+  display:flex;
+  justify-content: space-around;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.SetTimer{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.SetTimer-controls{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Timer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Controls{
+  display: flex;
+  justify-content: center;
 }
